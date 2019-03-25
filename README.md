@@ -3,17 +3,17 @@ Api de token e autenticação como micro-serviço
 
 Conceito papeis e responsabilidades:
 
-# Resource
+## Resource
 Qualquer recurso que pode ser consultado e manipulado por uma api externa.
 
-# Resource Owner 
+## Resource Owner 
 O usuário dos dados. 
 
-# Resource Server 
+## Resource Server 
 Aplicação que hospeda e controla os recursos que foram compartilhados exemplo (Facebook). 
 
-# Scope
+## Scope
 É a ação que deseja fazer com os resources.
 
-# Client 
+## Client 
 Aplicação que solicita acesso aos dados do usuário. 
