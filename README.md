@@ -1,5 +1,5 @@
 # api-oauth-2.0
-Api de token e autenticação como micro-serviço
+Api de token e autenticação
 
 Conceito papeis e responsabilidades:
 
@@ -17,3 +17,9 @@ Aplicação que hospeda e controla os recursos que foram compartilhados exemplo 
 
 ## Client 
 Aplicação que solicita acesso aos dados do usuário. 
+
+## Token 
+Chave de acesso solicitada pelo client para acessar os recursos do Resource Server.
+
+## Authorization Server
+Site principal que valida a segurança do token naquele escopo.
